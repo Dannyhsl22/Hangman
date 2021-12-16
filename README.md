@@ -26,34 +26,42 @@ The user has 7 lives to guess letters and/or word to win the game otherwise they
 
   * accept user inputs.
   * Valid Guess.
+  
 ![](assets/readme/validGuess.png)
 
   * accept user inputs.
   * Invalid Guess.
+
   ![](assets/readme/invalidGuess.png)
 
   * accept user inputs.
   * Correct Guess.
+
   ![](assets/readme/correctGuess.png)
 
   * accept user inputs.
   * Wrong Guess.
+
   ![](assets/readme/wrongGuess.png) 
 
   * accept user inputs.
   * Win Game.
+
   ![](assets/readme/winGame.png)
 
   * accept user inputs.
   * Lose Game.
+
   ![](assets/readme/loseGame.png)
 
   * Play Game again Input.
   * accept user inputs of Y for Yes and N for No to exit.
+
   ![](assets/readme/playAgain.png)
 
 
 # Flowchart
+
 ![](assets/readme/Flowchart.png)
 
 ## Future features
@@ -66,12 +74,12 @@ I have manually tested this project by doing the following:
   * Tested in my local terminal and the Code Institute Heroku terminal.
 
 # Bugs
-  * Small error messages in terminal of long lines and trailing whitespace, but does not affect ruuning the program.
+  
   * No other bugs reported.
 
 # Validator testing
-  * PEP8 
-    * No errors were returned from [PEP8online](http://pep8online.com/)
+  
+  * Small error messages in terminal of long lines and trailing whitespace, but does not affect ruuning the program. errors were returned from [PEP8online](http://pep8online.com/)
 
 # Deployment
   * Steps for deployment
