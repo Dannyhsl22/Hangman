@@ -66,8 +66,8 @@ I have manually tested this project by doing the following:
   * Tested in my local terminal and the Code Institute Heroku terminal.
 
 # Bugs
-    
-  * No bugs reported.
+  * Small error messages in terminal of long lines and trailing whitespace, but does not affect ruuning the program.
+  * No other bugs reported.
 
 # Validator testing
   * PEP8 
