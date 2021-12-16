@@ -1,31 +1,87 @@
-![CI logo](https://codeinstitute.s3.amazonaws.com/fullstack/ci_logo_small.png)
+# HANGMAN
+A Hangman Game On Python is about guessing letters (A-Z) to form the words. If the player guesses the right letter that is within the word, the letter appears at its correct position. The user has to guess the correct word until a man is hung, then the game is over.
 
-Welcome Dannyhsl22,
+The Hangman Game In Python is written in a python programming language, In this Hangman Game Project is to implement the Hangman Game Using Python. Python loops and functions are enough to build this game here
 
-This is the Code Institute student template for deploying your third portfolio project, the Python command-line project. The last update to this file was: **August 17, 2021**
+[Here is the live version of my project.](https://hangman-python-keywords.herokuapp.com/)
+![](assets/readme/MOCKUP.png)
 
-## Reminders
+## How to play
+Hangman is a paper and pencil guessing game for two or more players. One player thinks of a word, phrase or sentence and the other(s) tries to guess it by suggesting letters within a certain number of guesses.
 
-* Your code must be placed in the `run.py` file
-* Your dependencies must be placed in the `requirements.txt` file
-* Do not edit any of the other files or your code may not deploy properly
+In this game the computer selects a random word from the Python keywords (glossary) that gets 
+displayed as "_______" and with visualization of a hangman in different stages.
+If user guesses a letter thats in the word it displays in the terminal on the line in it´s right position in the word.
+When the user guesses the whole word they win and can choose to play again or exit the game.
+The user has 7 lives to guess letters and/or word to win the game otherwise they will lose.
 
-## Creating the Heroku app
+# Features
+## Existing features
+  * Welcome screen (that shows the hanger and text saying "Let's play Hangman")
+  * Choice input to enter a letter or a word.
+  * Play aginst the computer.
+  * accept user inputs
 
-When you create the app, you will need to add two buildpacks from the _Settings_ tab. The ordering is as follows:
+![](assets/readme/welcome.png)
 
-1. `heroku/python`
-2. `heroku/nodejs`
+  * accept user inputs.
+  * Valid Guess.
+![](assets/readme/validGuess.png)
 
-You must then create a _Config Var_ called `PORT`. Set this to `8000`
+  * accept user inputs.
+  * Invalid Guess.
+  ![](assets/readme/invalidGuess.png)
 
-If you have credentials, such as in the Love Sandwiches project, you must create another _Config Var_ called `CREDS` and paste the JSON into the value field.
+  * accept user inputs.
+  * Correct Guess.
+  ![](assets/readme/correctGuess.png)
 
-Connect your GitHub repository and deploy as normal.
+  * accept user inputs.
+  * Wrong Guess.
+  ![](assets/readme/wrongGuess.png) 
 
-## Constraints
+  * accept user inputs.
+  * Win Game.
+  ![](assets/readme/winGame.png)
 
-The deployment terminal is set to 80 columns by 24 rows. That means that each line of text needs to be 80 characters or less otherwise it will be wrapped onto a second line.
+  * accept user inputs.
+  * Lose Game.
+  ![](assets/readme/loseGame.png)
 
------
-Happy coding!
+  * Play Game again Input.
+  * accept user inputs of Y for Yes and N for No to exit.
+  ![](assets/readme/playAgain.png)
+
+
+# Flowchart
+![](assets/readme/Flowchart.png)
+
+## Future features
+  * Different levels of difficulty.
+  * Multiplayers
+
+# Testing
+I have manually tested this project by doing the following:
+  * Passed the code through a PEP8 linter and confirmed there are no problems.
+  * Tested in my local terminal and the Code Institute Heroku terminal.
+
+# Bugs
+    
+  * No bugs reported.
+
+# Validator testing
+  * PEP8 
+    * No errors were returned from [PEP8online](http://pep8online.com/)
+
+# Deployment
+  * Steps for deployment
+    * Fork or clone this repository
+    * Create a new Heroku app
+    * Set the buildbacks to Pyhton and NodeJS in that order
+    * Link the Heroku app to repository
+    * Click on Deploy
+
+# Credits
+  * Code Institute for the deployment terminal
+  * Online websites like w3schools.com
+  * Youtube videos
